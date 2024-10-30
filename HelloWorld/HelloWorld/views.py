@@ -7,5 +7,5 @@ def hello(request):
 
 def test(request):
     context = {}
-    context = {'hello':'A test charsequence!','name':'Cooc'}
+    context = {'hello':'A test charsequence!!','name':'Cooc'}
     return render(request, 'test.html', context)
